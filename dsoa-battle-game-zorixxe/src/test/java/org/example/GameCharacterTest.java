@@ -34,7 +34,7 @@ public class GameCharacterTest {
     public void testAttackMiss() {
         GameCharacter hero = new NPC("Skeleton", 100, 1.2, 0);
         GameCharacter badGuy = new NPC("Goblin", 50, 1.2, 0);
-        hero.equippedWeapon = new Weapon("Spear", 40); // assuming Spear is super strong
+        hero.equippedWeapon = new Weapon("Spear", 40); 
 
         int missedAttacks = 0;
         for (int i = 0; i < 10; i++) {
